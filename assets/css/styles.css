@@ -1,6 +1,7 @@
 
 /* css */
 
+
 .index-top{
     top: 2000%;
     background-color: black;
@@ -14,21 +15,24 @@
     opacity: 88%;
 }
 
+
 .index-bottom{
     background-color: black;   
     font-size: 300%;
     width: 105%;
     margin: 0 auto;
     z-index: 1;
+
 }
 
 .index-bottom-text{
     color: white;
     font-family: sans-serif;
-    position: absolute;
+    position: relative;
     top: 8.5%; /* Use percentage for top position */
-    left: 20%; /* Use percentage for left position */
+    left: 25%; /* Use percentage for left position */
 }
+
 
 .apple {
     filter: brightness(110%);
@@ -36,13 +40,12 @@
 }
 
 .order{
-    position: absolute;
     color: rgba(0, 119, 237, 0.881);
     font-family: sans-serif;
-    top: 0.5%; /* Use percentage for top position */
-    left: 117%; /* Use percentage for left position */
-     /* Use percentage for font-size */
+    left: 55%;
+    
 }
+
 
 .table{
     color: white;
@@ -53,12 +56,13 @@
     z-index: 1;
 }
 
+
 .learnmore{
     color: rgba(0, 119, 237, 0.881);
-    position: absolute;
     font-family: sans-serif;
     top: 0.5%; 
-    left: 102%;
+    left: 86%;
+ 
 }
 
 .learnmore .tooltiptext{
@@ -82,4 +86,5 @@
     font-family: sans-serif;
     top: 65px;
 }
+
 

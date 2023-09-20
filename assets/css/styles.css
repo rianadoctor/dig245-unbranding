@@ -1,2 +1,101 @@
 
 /* css */
+
+
+.index-top{
+    background-color: black;
+    font-size: 120%; /* Use percentage for font-size to make it responsive */
+    position: absolute;
+    top: 0.1%; /* Use percentage for top position */
+    left: 0.005%; /* Use percentage for right position */
+}
+
+
+.index-bottom-text{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 6.5%; /* Use percentage for top position */
+    left: 20%; /* Use percentage for left position */
+}
+
+
+.index-bottom{
+    position: absolute;
+    background-color: black;
+    opacity: 88%;
+    font-size: 200%; /* Use percentage for font-size */
+    top: 1%; /* Use percentage for top position */
+    left: 0.01%; /* Use percentage for left position */
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the container takes up the full viewport height */
+    max-width: 100%; /* Use percentage for max-width to make it responsive */
+}
+
+
+.apple {
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+    max-height: 100%; /* Ensures the image doesn't exceed its container's height */
+    filter: brightness(110%);
+    filter: saturate(115%);
+}
+
+.order{
+    position: absolute;
+
+    color: rgba(0, 119, 237, 0.881);
+
+    font-family: sans-serif;
+    top: 0.5%; /* Use percentage for top position */
+    left: 117%; /* Use percentage for left position */
+     /* Use percentage for font-size */
+}
+
+
+.table{
+    color: white;
+    position: absolute;
+    top: 2%; /* Use percentage for top position */
+    font-family: sans-serif;
+    right: 18.5%; /* Use percentage for right position */
+    font-size: 85%;
+}
+
+
+.learnmore{
+    color: rgba(0, 119, 237, 0.881);
+    position: absolute;
+    font-family: sans-serif;
+    top: 0.5%; 
+    left: 102%;
+}
+
+.learnmore .tooltiptext{
+    visibility: hidden;
+    color: black;
+    width: 500%; /* Use percentage for width */
+    padding: 1%; /* Use percentage for padding */
+
+    position: absolute;
+    bottom: 8%; /* Use percentage for bottom position */
+    z-index: 1;
+}
+
+.learnmore:hover .tooltiptext{
+    visibility: visible;
+}
+
+.tooltiptext{
+    position: absolute;
+    left: -500px;
+    font-size: 35px;
+    font-family: sans-serif;
+    top: 65px;
+}
+

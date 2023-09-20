@@ -1,72 +1,57 @@
 
 /* css */
 
-
 .index-top{
+    top: 2000%;
     background-color: black;
-    font-size: 120%; /* Use percentage for font-size to make it responsive */
-    position: absolute;
-    top: 0.1%; /* Use percentage for top position */
-    left: 0.005%; /* Use percentage for right position */
+    font-size: 300%; /* Use percentage for font-size to make it responsive */
+    /* position: absolute; */
+     /* Use percentage for top position */
+    position: relative;
+    top: 3000%; 
+    width: 105%;
+    margin: 0 auto;
+    opacity: 88%;
 }
 
+.index-bottom{
+    background-color: black;   
+    font-size: 300%;
+    width: 105%;
+    margin: 0 auto;
+    z-index: 1;
+}
 
 .index-bottom-text{
     color: white;
     font-family: sans-serif;
     position: absolute;
-    top: 6.5%; /* Use percentage for top position */
+    top: 8.5%; /* Use percentage for top position */
     left: 20%; /* Use percentage for left position */
 }
 
-
-.index-bottom{
-    position: absolute;
-    background-color: black;
-    opacity: 88%;
-    font-size: 200%; /* Use percentage for font-size */
-    top: 1%; /* Use percentage for top position */
-    left: 0.01%; /* Use percentage for left position */
-}
-
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* This ensures the container takes up the full viewport height */
-    max-width: 100%; /* Use percentage for max-width to make it responsive */
-}
-
-
 .apple {
-    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
-    max-height: 100%; /* Ensures the image doesn't exceed its container's height */
     filter: brightness(110%);
     filter: saturate(115%);
 }
 
 .order{
     position: absolute;
-
     color: rgba(0, 119, 237, 0.881);
-
     font-family: sans-serif;
     top: 0.5%; /* Use percentage for top position */
     left: 117%; /* Use percentage for left position */
      /* Use percentage for font-size */
 }
 
-
 .table{
     color: white;
-    position: absolute;
-    top: 2%; /* Use percentage for top position */
+    position: relative;
     font-family: sans-serif;
-    right: 18.5%; /* Use percentage for right position */
+    right: -26%; /* Use percentage for right position */
     font-size: 85%;
+    z-index: 1;
 }
-
 
 .learnmore{
     color: rgba(0, 119, 237, 0.881);
@@ -79,11 +64,10 @@
 .learnmore .tooltiptext{
     visibility: hidden;
     color: black;
-    width: 500%; /* Use percentage for width */
-    padding: 1%; /* Use percentage for padding */
-
+    width: 500%; 
+    padding: 1%; 
     position: absolute;
-    bottom: 8%; /* Use percentage for bottom position */
+    bottom: 8%; 
     z-index: 1;
 }
 

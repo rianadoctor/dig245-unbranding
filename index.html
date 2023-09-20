@@ -4,11 +4,91 @@
     <!-- meta tags, links to css, etc. -->
     <meta charset="utf-8">
     <title>DIG 245 Unbrand</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="prettier" href=".vscode/.pretierrc">
 </head>
 <body>
 
     <!-- visible content goes here -->
     <h1>DIG 245 Unbrand</h1>
+
+    
+    
+    <main>
+        <div class="index">            
+            <div class="index-bottom" style="width: 1730.5px;">
+                <p>APPLEJUICEAPPLEJUILEJUICEAPPLEJUICEAPPLEJUILCEAPPLEJUICEAPPLEJUILEJU....PPPPPPPPPPPPPPPPPPPPPPPPP</p>            
+            </div>
+            <div class="index-top">
+                <p>APPLEJUICEAPPLJUICEAPPLEJUICEAPPLEJUICEAPPLEJPUICPLEJPUICPLEJPUICPLEJPUICPLEJPUIC.EAPPLEJUICEAPPLEPLEJUICPEPAPPLEJUICEAPPLEJUICEAPPLEJUICEAPPLEJUICEAPPLEJUICE</p>
+            </div>
+        </div>
+
+        <div class="index-bottom-text">
+            <p>Save on Mac or iPad with education pricing and get a gift card up to $150. Gift card offer ends October 2.</p>
+            <div class="order" style="cursor: pointer;">
+                <p style="width: 97px;">Pre-order ></p>
+            </div>  
+            <div class="learnmore" style="cursor: pointer; width: 97px;">
+                <p>Learn more ></p>
+                <span class="tooltiptext">It's our products so just buy it</span>
+            </div>
+
+
+        </div>
+
+        <div class="table">
+            <table>
+                <tr class="table">
+                    <td><img class="logo-apple" src="assets/img/logo.png" alt="LogoApple" width="25" height="25"> </td>
+                    <td style="padding: 5px 20px">Store</td>
+                    <td style="padding: 5px 20px">Mac</td>
+                    <td style="padding: 5px 20px">iPad</td>
+                    <td style="padding: 5px 20px">iPhone</td>
+                    <td style="padding: 5px 20px">Watch</td>
+                    <td style="padding: 5px 20px">Watch</td>
+                    <td style="padding: 5px 20px">Vision</td>
+                    <td style="padding: 5px 20px">AirPods</td>
+                    <td style="padding: 5px 20px">TV </td>
+                    <td style="padding: 5px 20px">Entertainment</td>
+                    <td style="padding: 5px 20px">Accessories</td>
+                    <td style="padding: 5px 20px">Support</td>
+                    <td style="padding: 5px 20px"><img class="search-bar" src="assets/img/searchbar.png" alt="SearchBar" width="25" height="25"> </td>
+                    <td style="padding: 5px 20px"><img class="shopping" src="assets/img/shopping.png" alt="Shopping" width="25" height="25"> </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="container">
+            <img class="apple" src="assets/img/iphone.JPG" alt="Apple" width="1200" height="800">
+        </div>
+
+
+    </main>
+
+    <script>
+        let appleImage = document.querySelector(".apple");
+        let preOrderButton = document.querySelector(".order");
+    
+
+        appleImage.addEventListener("mouseover", function(){
+            this.style.cursor = "not-allowed";
+        })
+
+        preOrderButton.addEventListener("mouseover", function(){
+            appleImage.src = "assets/img/applejuice.JPG";
+            appleImage.style.cursor = "not-allowed";
+        });
+    
+        preOrderButton.addEventListener("mouseout", function() {
+            appleImage.src = "assets/img/iphone.JPG";
+            appleImage.style.cursor = "pointer";
+        });
+
+        console.log("The concept behind my unbranding approach is to draw attention to the strategies employed by large corporations, such as Apple, in their branding efforts. These companies often center their marketing campaigns around the brand name itself. Apple, for instance, tends to create the perception that their products are superior simply because they are Apple-made. I believe that a substantial portion of consumers, including myself, sometimes gravitate towards Apple products primarily due to the brand's reputation, rather than a deep understanding of the product's inherent qualities. In my own consumer experience, I too have found myself falling into this pattern, as I'm often enticed by the allure of the latest Apple release. Apple's advertising tactics often present their new products as superior simply because they are new and crafted by the company. This unbranding initiative can be seen as a form of satire, shedding light on Apple's advertising techniques. These techniques typically involve minimalistic descriptions that provide little to no substantial information about what sets their latest product apart from previous iterations or even older products in the market.")
+    </script>
+    
+
 
 </body>
 </html>
